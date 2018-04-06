@@ -9,6 +9,7 @@
 import UIKit
 
 class PersonalInfoVC: UIViewController {
+    
 
     @IBOutlet weak var MaleSwitch: UISwitch!
     @IBOutlet weak var FemaleSwitch: UISwitch!
@@ -33,10 +34,6 @@ class PersonalInfoVC: UIViewController {
     
     @IBAction func FemaleSwitchOn(_ sender: Any) {
         MaleSwitch.isOn = false
-    }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.view.endEditing(true)
     }
 
 }
