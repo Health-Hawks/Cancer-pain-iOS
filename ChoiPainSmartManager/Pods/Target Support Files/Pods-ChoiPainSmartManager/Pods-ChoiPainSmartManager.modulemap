@@ -1,0 +1,6 @@
+framework module Pods_ChoiPainSmartManager {
+  umbrella header "Pods-ChoiPainSmartManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

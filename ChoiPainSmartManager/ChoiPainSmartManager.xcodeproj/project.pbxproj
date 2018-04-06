@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E1DC55D2028E6C3002CE721 /* PrimaryDiagnosisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DC55C2028E6C3002CE721 /* PrimaryDiagnosisVC.swift */; };
+		5E1DC55F2028EDB3002CE721 /* OtherConditionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DC55E2028EDB3002CE721 /* OtherConditionsVC.swift */; };
+		5E2A0BF4201FACDF00AE7C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0BF3201FACDF00AE7C0B /* AppDelegate.swift */; };
+		5E2A0BF6201FACDF00AE7C0B /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0BF5201FACDF00AE7C0B /* StartVC.swift */; };
+		5E2A0BF9201FACDF00AE7C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2A0BF7201FACDF00AE7C0B /* Main.storyboard */; };
+		5E2A0BFB201FACDF00AE7C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2A0BFA201FACDF00AE7C0B /* Assets.xcassets */; };
+		5E2A0BFE201FACDF00AE7C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2A0BFC201FACDF00AE7C0B /* LaunchScreen.storyboard */; };
+		5E2A0C09201FC27800AE7C0B /* RegistrationViewDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0C08201FC27800AE7C0B /* RegistrationViewDataVC.swift */; };
+		5E2A0C0B201FC2A700AE7C0B /* PersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0C0A201FC2A700AE7C0B /* PersonalInfoVC.swift */; };
+		5E2A0C0D201FCBC000AE7C0B /* DateOfBirthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0C0C201FCBC000AE7C0B /* DateOfBirthVC.swift */; };
+		5E5171B72072B2750024C7B9 /* ButtonPressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5171B62072B2750024C7B9 /* ButtonPressed.swift */; };
+		5E55A815206968F9006073E5 /* TreatmentConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E55A814206968F9006073E5 /* TreatmentConfirmationVC.swift */; };
+		5E55A81720697030006073E5 /* AlterOrPursueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E55A81620697030006073E5 /* AlterOrPursueVC.swift */; };
+		5E55A81920697104006073E5 /* MedicationApproachVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E55A81820697104006073E5 /* MedicationApproachVC.swift */; };
+		5E55A81B2069712D006073E5 /* FurtherEducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E55A81A2069712D006073E5 /* FurtherEducationVC.swift */; };
+		5E55A81D206976BF006073E5 /* BreakthroughPainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E55A81C206976BF006073E5 /* BreakthroughPainVC.swift */; };
+		5E55A81F206976FB006073E5 /* PainTreatmentTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E55A81E206976FB006073E5 /* PainTreatmentTypeVC.swift */; };
+		5E7618DE2076A80200D00B26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E7618DD2076A80200D00B26 /* GoogleService-Info.plist */; };
+		5EB1C8C32059870200FE9BA0 /* FrontPainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1C8C22059870200FE9BA0 /* FrontPainVC.swift */; };
+		5EB1C8C52059951300FE9BA0 /* BackPainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1C8C42059951300FE9BA0 /* BackPainVC.swift */; };
+		5EB1C8C72059961800FE9BA0 /* PainChangesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1C8C62059961800FE9BA0 /* PainChangesVC.swift */; };
+		5EB1C8C92059AB9C00FE9BA0 /* PainSymptomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1C8C82059AB9C00FE9BA0 /* PainSymptomsVC.swift */; };
+		5ECD3CB12032155000246E4B /* DrugUsageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD3CB02032155000246E4B /* DrugUsageVC.swift */; };
+		5ECD3CB32032225E00246E4B /* SubstanceAbuseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD3CB22032225E00246E4B /* SubstanceAbuseVC.swift */; };
+		5ECD3CB52032289F00246E4B /* ThankYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD3CB42032289F00246E4B /* ThankYouVC.swift */; };
+		5ECD3CB720322B3500246E4B /* PostRegistrationMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD3CB620322B3500246E4B /* PostRegistrationMainVC.swift */; };
+		5EF3D8F4202B7C7800096356 /* GoalToTreatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D8F3202B7C7800096356 /* GoalToTreatVC.swift */; };
+		5EF3D8FC202BAA5E00096356 /* PastandCurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D8FB202BAA5E00096356 /* PastandCurrentVC.swift */; };
+		5EFC7F42203B547C007055CE /* PainStrengthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC7F41203B547C007055CE /* PainStrengthVC.swift */; };
+		5EFC7F44203B55FD007055CE /* TreatmentInterventionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC7F43203B55FD007055CE /* TreatmentInterventionVC.swift */; };
+		5EFC7F46203B6787007055CE /* PainDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC7F45203B6787007055CE /* PainDescriptionVC.swift */; };
+		68C4A09BD04B6871D48EE0E2 /* Pods_ChoiPainSmartManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A4BCDDF50F28DD315442A6 /* Pods_ChoiPainSmartManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F72FB0B8D5E8361E16039E6 /* Pods-ChoiPainSmartManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoiPainSmartManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChoiPainSmartManager/Pods-ChoiPainSmartManager.debug.xcconfig"; sourceTree = "<group>"; };
+		51A4BCDDF50F28DD315442A6 /* Pods_ChoiPainSmartManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoiPainSmartManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5533300BB36D0A9B54379526 /* Pods-ChoiPainSmartManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoiPainSmartManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChoiPainSmartManager/Pods-ChoiPainSmartManager.release.xcconfig"; sourceTree = "<group>"; };
+		5E1DC55C2028E6C3002CE721 /* PrimaryDiagnosisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryDiagnosisVC.swift; sourceTree = "<group>"; };
+		5E1DC55E2028EDB3002CE721 /* OtherConditionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherConditionsVC.swift; sourceTree = "<group>"; };
+		5E2A0BF0201FACDF00AE7C0B /* ChoiPainSmartManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoiPainSmartManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2A0BF3201FACDF00AE7C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E2A0BF5201FACDF00AE7C0B /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		5E2A0BF8201FACDF00AE7C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E2A0BFA201FACDF00AE7C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E2A0BFD201FACDF00AE7C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E2A0BFF201FACE000AE7C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E2A0C08201FC27800AE7C0B /* RegistrationViewDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewDataVC.swift; sourceTree = "<group>"; };
+		5E2A0C0A201FC2A700AE7C0B /* PersonalInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoVC.swift; sourceTree = "<group>"; };
+		5E2A0C0C201FCBC000AE7C0B /* DateOfBirthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateOfBirthVC.swift; sourceTree = "<group>"; };
+		5E5171B62072B2750024C7B9 /* ButtonPressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPressed.swift; sourceTree = "<group>"; };
+		5E55A814206968F9006073E5 /* TreatmentConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentConfirmationVC.swift; sourceTree = "<group>"; };
+		5E55A81620697030006073E5 /* AlterOrPursueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterOrPursueVC.swift; sourceTree = "<group>"; };
+		5E55A81820697104006073E5 /* MedicationApproachVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationApproachVC.swift; sourceTree = "<group>"; };
+		5E55A81A2069712D006073E5 /* FurtherEducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurtherEducationVC.swift; sourceTree = "<group>"; };
+		5E55A81C206976BF006073E5 /* BreakthroughPainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakthroughPainVC.swift; sourceTree = "<group>"; };
+		5E55A81E206976FB006073E5 /* PainTreatmentTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainTreatmentTypeVC.swift; sourceTree = "<group>"; };
+		5E7618DD2076A80200D00B26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5EB1C8C22059870200FE9BA0 /* FrontPainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPainVC.swift; sourceTree = "<group>"; };
+		5EB1C8C42059951300FE9BA0 /* BackPainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackPainVC.swift; sourceTree = "<group>"; };
+		5EB1C8C62059961800FE9BA0 /* PainChangesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainChangesVC.swift; sourceTree = "<group>"; };
+		5EB1C8C82059AB9C00FE9BA0 /* PainSymptomsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainSymptomsVC.swift; sourceTree = "<group>"; };
+		5ECD3CB02032155000246E4B /* DrugUsageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugUsageVC.swift; sourceTree = "<group>"; };
+		5ECD3CB22032225E00246E4B /* SubstanceAbuseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstanceAbuseVC.swift; sourceTree = "<group>"; };
+		5ECD3CB42032289F00246E4B /* ThankYouVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouVC.swift; sourceTree = "<group>"; };
+		5ECD3CB620322B3500246E4B /* PostRegistrationMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRegistrationMainVC.swift; sourceTree = "<group>"; };
+		5EF3D8F3202B7C7800096356 /* GoalToTreatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalToTreatVC.swift; sourceTree = "<group>"; };
+		5EF3D8FB202BAA5E00096356 /* PastandCurrentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastandCurrentVC.swift; sourceTree = "<group>"; };
+		5EFC7F41203B547C007055CE /* PainStrengthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainStrengthVC.swift; sourceTree = "<group>"; };
+		5EFC7F43203B55FD007055CE /* TreatmentInterventionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentInterventionVC.swift; sourceTree = "<group>"; };
+		5EFC7F45203B6787007055CE /* PainDescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainDescriptionVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E2A0BED201FACDF00AE7C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C4A09BD04B6871D48EE0E2 /* Pods_ChoiPainSmartManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E2A0BE7201FACDF00AE7C0B = {
+			isa = PBXGroup;
+			children = (
+				5E2A0BF2201FACDF00AE7C0B /* ChoiPainSmartManager */,
+				5E2A0BF1201FACDF00AE7C0B /* Products */,
+				DFB3D4F67BFF307691F9772F /* Pods */,
+				A608430C0F011FF171F24FC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E2A0BF1201FACDF00AE7C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A0BF0201FACDF00AE7C0B /* ChoiPainSmartManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E2A0BF2201FACDF00AE7C0B /* ChoiPainSmartManager */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A0C07201FC25300AE7C0B /* Model */,
+				5E2A0C06201FC24A00AE7C0B /* Controller */,
+				5E2A0C05201FC0DA00AE7C0B /* View */,
+				5E2A0BF3201FACDF00AE7C0B /* AppDelegate.swift */,
+				5E2A0BF7201FACDF00AE7C0B /* Main.storyboard */,
+				5E2A0BFA201FACDF00AE7C0B /* Assets.xcassets */,
+				5E2A0BFC201FACDF00AE7C0B /* LaunchScreen.storyboard */,
+				5E2A0BFF201FACE000AE7C0B /* Info.plist */,
+				5E7618DD2076A80200D00B26 /* GoogleService-Info.plist */,
+			);
+			path = ChoiPainSmartManager;
+			sourceTree = "<group>";
+		};
+		5E2A0C05201FC0DA00AE7C0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E2A0C06201FC24A00AE7C0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A0BF5201FACDF00AE7C0B /* StartVC.swift */,
+				5E2A0C08201FC27800AE7C0B /* RegistrationViewDataVC.swift */,
+				5E2A0C0A201FC2A700AE7C0B /* PersonalInfoVC.swift */,
+				5E2A0C0C201FCBC000AE7C0B /* DateOfBirthVC.swift */,
+				5E1DC55C2028E6C3002CE721 /* PrimaryDiagnosisVC.swift */,
+				5E1DC55E2028EDB3002CE721 /* OtherConditionsVC.swift */,
+				5EF3D8F3202B7C7800096356 /* GoalToTreatVC.swift */,
+				5EF3D8FB202BAA5E00096356 /* PastandCurrentVC.swift */,
+				5ECD3CB02032155000246E4B /* DrugUsageVC.swift */,
+				5ECD3CB22032225E00246E4B /* SubstanceAbuseVC.swift */,
+				5ECD3CB42032289F00246E4B /* ThankYouVC.swift */,
+				5ECD3CB620322B3500246E4B /* PostRegistrationMainVC.swift */,
+				5EFC7F41203B547C007055CE /* PainStrengthVC.swift */,
+				5EFC7F43203B55FD007055CE /* TreatmentInterventionVC.swift */,
+				5EFC7F45203B6787007055CE /* PainDescriptionVC.swift */,
+				5EB1C8C22059870200FE9BA0 /* FrontPainVC.swift */,
+				5EB1C8C42059951300FE9BA0 /* BackPainVC.swift */,
+				5EB1C8C62059961800FE9BA0 /* PainChangesVC.swift */,
+				5EB1C8C82059AB9C00FE9BA0 /* PainSymptomsVC.swift */,
+				5E55A814206968F9006073E5 /* TreatmentConfirmationVC.swift */,
+				5E55A81620697030006073E5 /* AlterOrPursueVC.swift */,
+				5E55A81820697104006073E5 /* MedicationApproachVC.swift */,
+				5E55A81A2069712D006073E5 /* FurtherEducationVC.swift */,
+				5E55A81C206976BF006073E5 /* BreakthroughPainVC.swift */,
+				5E55A81E206976FB006073E5 /* PainTreatmentTypeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E2A0C07201FC25300AE7C0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E5171B62072B2750024C7B9 /* ButtonPressed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A608430C0F011FF171F24FC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A4BCDDF50F28DD315442A6 /* Pods_ChoiPainSmartManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFB3D4F67BFF307691F9772F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F72FB0B8D5E8361E16039E6 /* Pods-ChoiPainSmartManager.debug.xcconfig */,
+				5533300BB36D0A9B54379526 /* Pods-ChoiPainSmartManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E2A0BEF201FACDF00AE7C0B /* ChoiPainSmartManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2A0C02201FACE000AE7C0B /* Build configuration list for PBXNativeTarget "ChoiPainSmartManager" */;
+			buildPhases = (
+				96F664ABB2BCB3B05A438B56 /* [CP] Check Pods Manifest.lock */,
+				5E2A0BEC201FACDF00AE7C0B /* Sources */,
+				5E2A0BED201FACDF00AE7C0B /* Frameworks */,
+				5E2A0BEE201FACDF00AE7C0B /* Resources */,
+				96B07C6B4DC2366526670B1C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChoiPainSmartManager;
+			productName = ChoiPainSmartManager;
+			productReference = 5E2A0BF0201FACDF00AE7C0B /* ChoiPainSmartManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E2A0BE8201FACDF00AE7C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Micheal Finney";
+				TargetAttributes = {
+					5E2A0BEF201FACDF00AE7C0B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E2A0BEB201FACDF00AE7C0B /* Build configuration list for PBXProject "ChoiPainSmartManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E2A0BE7201FACDF00AE7C0B;
+			productRefGroup = 5E2A0BF1201FACDF00AE7C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E2A0BEF201FACDF00AE7C0B /* ChoiPainSmartManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E2A0BEE201FACDF00AE7C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2A0BFE201FACDF00AE7C0B /* LaunchScreen.storyboard in Resources */,
+				5E7618DE2076A80200D00B26 /* GoogleService-Info.plist in Resources */,
+				5E2A0BFB201FACDF00AE7C0B /* Assets.xcassets in Resources */,
+				5E2A0BF9201FACDF00AE7C0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96B07C6B4DC2366526670B1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChoiPainSmartManager/Pods-ChoiPainSmartManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChoiPainSmartManager/Pods-ChoiPainSmartManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F664ABB2BCB3B05A438B56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChoiPainSmartManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E2A0BEC201FACDF00AE7C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECD3CB32032225E00246E4B /* SubstanceAbuseVC.swift in Sources */,
+				5E55A81F206976FB006073E5 /* PainTreatmentTypeVC.swift in Sources */,
+				5ECD3CB12032155000246E4B /* DrugUsageVC.swift in Sources */,
+				5EB1C8C72059961800FE9BA0 /* PainChangesVC.swift in Sources */,
+				5E2A0C0B201FC2A700AE7C0B /* PersonalInfoVC.swift in Sources */,
+				5EB1C8C52059951300FE9BA0 /* BackPainVC.swift in Sources */,
+				5E2A0BF6201FACDF00AE7C0B /* StartVC.swift in Sources */,
+				5E55A81920697104006073E5 /* MedicationApproachVC.swift in Sources */,
+				5E55A81D206976BF006073E5 /* BreakthroughPainVC.swift in Sources */,
+				5EFC7F44203B55FD007055CE /* TreatmentInterventionVC.swift in Sources */,
+				5E55A81B2069712D006073E5 /* FurtherEducationVC.swift in Sources */,
+				5E1DC55F2028EDB3002CE721 /* OtherConditionsVC.swift in Sources */,
+				5EB1C8C92059AB9C00FE9BA0 /* PainSymptomsVC.swift in Sources */,
+				5E55A815206968F9006073E5 /* TreatmentConfirmationVC.swift in Sources */,
+				5EFC7F42203B547C007055CE /* PainStrengthVC.swift in Sources */,
+				5EFC7F46203B6787007055CE /* PainDescriptionVC.swift in Sources */,
+				5E5171B72072B2750024C7B9 /* ButtonPressed.swift in Sources */,
+				5E55A81720697030006073E5 /* AlterOrPursueVC.swift in Sources */,
+				5EB1C8C32059870200FE9BA0 /* FrontPainVC.swift in Sources */,
+				5E2A0C09201FC27800AE7C0B /* RegistrationViewDataVC.swift in Sources */,
+				5ECD3CB720322B3500246E4B /* PostRegistrationMainVC.swift in Sources */,
+				5E1DC55D2028E6C3002CE721 /* PrimaryDiagnosisVC.swift in Sources */,
+				5ECD3CB52032289F00246E4B /* ThankYouVC.swift in Sources */,
+				5EF3D8F4202B7C7800096356 /* GoalToTreatVC.swift in Sources */,
+				5E2A0C0D201FCBC000AE7C0B /* DateOfBirthVC.swift in Sources */,
+				5EF3D8FC202BAA5E00096356 /* PastandCurrentVC.swift in Sources */,
+				5E2A0BF4201FACDF00AE7C0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E2A0BF7201FACDF00AE7C0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2A0BF8201FACDF00AE7C0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E2A0BFC201FACDF00AE7C0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2A0BFD201FACDF00AE7C0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E2A0C00201FACE000AE7C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E2A0C01201FACE000AE7C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E2A0C03201FACE000AE7C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F72FB0B8D5E8361E16039E6 /* Pods-ChoiPainSmartManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoiPainSmartManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChoiPainSmartManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E2A0C04201FACE000AE7C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5533300BB36D0A9B54379526 /* Pods-ChoiPainSmartManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoiPainSmartManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChoiPainSmartManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E2A0BEB201FACDF00AE7C0B /* Build configuration list for PBXProject "ChoiPainSmartManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2A0C00201FACE000AE7C0B /* Debug */,
+				5E2A0C01201FACE000AE7C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2A0C02201FACE000AE7C0B /* Build configuration list for PBXNativeTarget "ChoiPainSmartManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2A0C03201FACE000AE7C0B /* Debug */,
+				5E2A0C04201FACE000AE7C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E2A0BE8201FACDF00AE7C0B /* Project object */;
+}
